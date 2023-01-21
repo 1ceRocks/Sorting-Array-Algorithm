@@ -14,3 +14,14 @@ def selection_sort(arrayVal):
             arrayVal[min] = temp
             
     return arrayVal
+
+def main():
+    arrayVal = [52, 95, 18, 78, 12, 60, 34, 6, 83, 32]
+    selection_sort(arrayVal)
+    print(arrayVal)
+    
+    arrayVal = [3, 9, 2, 1]
+    selection_sort(arrayVal)
+    print(arrayVal)
+    
+main()
